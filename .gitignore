@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+app.log
+
+# Generated outputs
+graph_output.html
+graph.json
+
+# AWS config (contains KB/collection IDs)
+.kb_config
+
+# Data files (too large for git)
+data/3gpp/
+data/whitepapers/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
