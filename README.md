@@ -18,6 +18,13 @@ S3 (3GPP docs + whitepapers)
 ## Quick Start
 
 ### 1. Install dependencies
+Using `uv` (recommended):
+```bash
+uv pip install gradio networkx pyvis spacy boto3
+uv run python -m spacy download en_core_web_sm
+```
+
+Or using standard `pip`:
 ```bash
 pip install gradio networkx pyvis spacy boto3
 python -m spacy download en_core_web_sm
@@ -37,7 +44,8 @@ This will:
 
 ### 3. Run the application
 ```bash
-python3.11 main.py
+uv run main.py
+# Or: python3.11 main.py
 ```
 Access at: http://localhost:7860
 
